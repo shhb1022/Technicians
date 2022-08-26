@@ -1,0 +1,81 @@
+/*뒤로가기 버튼*/
+.arrow-prev{
+    position: relative;
+    float:left;
+    border:0px solid #000;
+    width:40px;
+    height:40px;
+
+}
+.arrow-prev::after {
+    position: absolute;
+    left: 10px;
+    content: '';
+    width: 20px; /* 사이즈 */
+    height: 20px; /* 사이즈 */
+    border-top: 5px solid #03468f; /* 선 두께 */
+    border-right: 5px solid #03468f; /* 선 두께 */
+    transform: rotate(225deg); /* 각도 */
+}
+hr {
+    border-color: #03468F;
+    opacity: 20%;
+}
+a {
+    color: black;
+}
+.recruit-logo {
+    margin-bottom: 10px;
+}
+
+/*말풍선*/
+.arrow_box {
+    position: relative;
+    background: #f7f8ff;
+    border: 3px solid #03468F;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+}
+.arrow_box:after, .arrow_box:before {
+    bottom: 100%;
+    left: 10%;
+    border: solid transparent;
+    border-radius: 5px;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.arrow_box:after {
+    border-color: rgba(244, 244, 244, 0);
+    border-bottom-color: #f7f8ff;
+    border-width: 25px;
+    margin-left: -25px;
+}
+.arrow_box:before {
+    border-color: rgba(3, 70, 143, 0);
+    border-bottom-color: #03468F;
+    border-width: 29px;
+    margin-left: -29px;
+}
+b {
+    color: #03468F;
+}
+#btn {
+    position: fixed;
+    background-color: white;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 5rem;
+    border-color: #03468F;
+    opacity: 95%;
+}
+#btn >hr{
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+#btn > img {
+    margin: 0 6% 0 7%;
+}

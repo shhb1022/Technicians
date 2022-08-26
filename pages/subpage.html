@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>기술자들: 상세페이지</title>
+    <!--style-->
+    <link rel="stylesheet" href="subpage.css">
+    <script language="javascript">
+        const img = new Array("../images/empty-heart.png","../images/heart.png","../images/empty-heart.png","../images/heart.png","../images/empty-heart.png","../images/heart.png","../images/empty-heart.png","../images/heart.png");
+        let i;
+        i=0;
+        function chgImg(){
+            document.like.src = img[i++];
+        }
+    </script>
+</head>
+<body>
+<a href="main.html"><span class="arrow-prev" style="margin-top: 0px"></span></a>
+<a href="main.html" style="text-decoration: none"><img src="../images/tech_logo1.png" style="margin-left:5px; margin-top: 0px; height:60px; width:80px"/></a><hr style="margin-top: 30px"/>
+<!--<span class="my-menu" ></span>-->
+<!--요약정보-->
+<div>
+    <div class="recruit-item">
+        <div class="recruit-logo" style="float: left">
+            <img src="../images/photo.PNG" height="100" width="100" style="border-radius: 8px;"/>
+            <img src="../images/bolt.PNG" height="55" width="50" />
+        </div>
+        <div class="recruit-tech"><a href=""><b>주) 가 테크</b></a></div>
+        <div class="work-info">
+            <div class="work-tech">용접공 필요</div>
+            <span class="work-area ">지역: 부천시 원미구, </span>
+            <span class="work-pay">일급: 13만</span>
+            <div class="recruit-typeM">
+                I #존중 #긍정적 #계획적
+            </div>
+            <div class="recruit-typeY" style="color: #03468F">
+                You #빠른 #책임감 #계획적
+            </div>
+            <!--<div class="recruit-member" style="float: left"><img src="../images/bolt.PNG" height="81" width="79"/></div>-->
+        </div>
+    </div>
+</div>
+<br><br>
+<!--말풍선~상세정보-->
+<div class="arrow_box">
+    <p><b>자기소개 및 구인구직 </b>
+    <p>
+        안녕하세요 저는 ‘형님’이라는 용접 사업체를 운영하고 있는 20년차 용접 기술자 홍길동입니다. <br>저는 용접기사와 특수 용접기능사 자격증을 가지고 있습니다.<br>아크 용접 중 TIG 용접을 주로 담당했으며, 그 외의 분용접은 고도의 집중력과 섬세한 손길을 요하는 작업이 필요합니다.<br> 그러니 그만큼 현장에서의 경력이 중요합니다. <br>저는 다양한 현장에서 용접 관련 일들을 수행했으며 TIG 용접, 까다로운 레이저 용접, 테르밋 용접 등 특수 용접에서도 많은 경력을 가지고 있습니다.<br>용접 자격증이 있으며 현장에서 게으름 피우지 않고 성실하게 함께 일할 수 있는 사람을 찾고 있습니다.<br>용접에 대한 현장 경험이 거의 없으신 분이라도 제가 가르쳐 드릴 수 있으니 용접에 대한 열의가 많으신 분이었으면 좋겠습니다.<br>또한 안전에 대해 소홀히 하시는 분은 같이 일하기 어렵습니다. 더 궁금하신 사항이 있다면 질문 남겨 주시길 바랍니다.
+    </p>
+    <b>필요한 자격증 </b> <p>용접 기사 관련 자격증, 안전 교육증 등</p>
+    <b>직업전망</b><p> 조선업, 건설업 등 매우 다양한 분야에서 쓰이므로 한 번 배우면 어디서든 수요가 끊기지 않는 직업, 원한다면 해외 진출까지 가능</p>
+    <b>근로환경</b><p>작업 현장이 위험한 경우가 많고 여름에는 더 많이 힘들 수 있음. 용접은 보통 매우 높은 온도에서 작업이 이루어지므로 보호 용구를 꼭 착용하여야 함.</p>
+    <b>연봉</b><br><br> 초봉 3000만원 하지만 직업 특성상 경력에 따라 천차만별.<br>
+    하루 일당 15~35만원(경력과 특수 용접 가능 여부에 따라 판단)
+    <br>
+    <br><b>기술 숙련 기간</b><br><br> 개인의 능력 정도에 따라 다르겠지만 최소한 1년 동안 현장 경험이 있어야 익숙해질 거라 생각합니다.
+    <br>
+    <br><b>일의 순서</b><br><br> 처음 1년 동안은 간단한 납땜과 더불어 다소 간단한 용접은 제가 먼저 요령에 대해 시범을 보인 뒤 따라 해보는 등 저의 일을 보조하는 역할을 하게 될 것입니다. 옆에서 제가 하는 작업을 보고 간단한 용접은 직접 할 수 있게끔 하며 2~년차에는 어느정도 일이 익숙해지는 단계이니 본격적으로 용접 작업 범위를 늘려 함께 일할 생각입니다. 어려운 일인만큼 일의 순서가 매우 중요하니 잘 따라오셨으면 좋겠습니다.
+    </p>
+</div>
+<!---->
+<br><br><br><br>
+
+<div id="btn">
+    <hr/>
+    <img src="../images/x.png" height="40" width="45"/>
+    <img name="like" src="../images/empty-heart.png"  height="40" width="40" onClick="javascript:chgImg()"/>
+    <img src="../images/star.png" height="45" width="45"/>
+    <img src="../images/review.png" height="45" width="45"/>
+</div>
+
+</body>
+</html>
